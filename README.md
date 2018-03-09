@@ -16,6 +16,12 @@ Specifically, it does these things:
   nothing but whitespace between the open brace and closing brace will delete
   both the open and closing brace.
 
+# Installation
+
+This plugin can be installed as a standard Vim package (see `:help packages`).
+Simply clone this repository into ~/.vim/pack/plugins/start/vim-autobrace to
+install the Vim files for this plugin.
+
 # Configuration
 
 None yet, but I'm open to suggestions!
