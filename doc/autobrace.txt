@@ -11,7 +11,9 @@ Specifically, it does these things:
 
 * Opening brace and quote characters (specifically, `(`,
   `[`, `{`, `'`, and `"`) are mapped to make them automatically insert their
-  corresponding closing character.
+  corresponding closing character. `'`  is special-cased to not insert the
+  closing character when typed after a word character, to avoid triggering
+  when typing words with apostrophes.
 * Typing a closing brace or quote character while the next character past the
   cursor is that character will skip over it instead of inserting it.
 * Pressing <CR> when the next character is a closing brace will insert two
